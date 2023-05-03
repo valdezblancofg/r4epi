@@ -422,7 +422,7 @@ csv <- read_csv("data/comma_complex.csv")
 csv
 ```
 
-That is obviously not what we wanted. So, let's start adjusting some of `read_csv()`'s defaults -- staring with the column names.
+That is obviously not what we wanted. So, let's start adjusting some of `read_csv()`'s defaults -- starting with the column names.
 
 ```{r read-in-comma-complex-csv-2, cache = TRUE}
 csv <- read_csv(
